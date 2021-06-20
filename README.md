@@ -24,14 +24,15 @@
     <hr />
     <details>
       <summary>Project Details</summary>
-        <img src="./photos/10.PNG"></img>
-        <img src="./photos/11.PNG"></img>
-        <img src="./photos/12.PNG"></img>
-        <img src="./photos/13.PNG"></img>
-        <img src="./photos/14.PNG"></img>
-        <img src="./photos/15.PNG"></img>
-        <img src="./photos/16.PNG"></img>
-        <img src="./photos/17.PNG"></img>
+        <img src="./photo/0.PNG"></img>
+        <img src="./photo/0-1.PNG"></img>
+        <img src="./photo/1.PNG"></img>
+        <img src="./photo/2.PNG"></img>
+        <img src="./photo/3.PNG"></img>
+        <img src="./photo/4.PNG"></img>
+        <img src="./photo/5.PNG"></img>
+        <img src="./photo/6.PNG"></img>
+        <img src="./photo/7.PNG"></img>
     </details>
     
 <ul>
