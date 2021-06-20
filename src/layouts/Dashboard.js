@@ -8,6 +8,7 @@ import BaseList from "../pages/Lists/BaseList";
 import JobSeekerDetail from "../pages/Lists/JobSeekerDetail";
 import LoginPage from "../pages/Auth/LoginPage";
 import RegisterPage from "../pages/Auth/RegisterPage";
+import Help from "../pages/HomePage/HelpPage";
 
 export default function Dashboard() {
     return (
@@ -20,6 +21,7 @@ export default function Dashboard() {
         <Route exact path="/jobseeker/:id" component={JobSeekerDetail}/>
         <Route exact path="/login" component={LoginPage}/>
         <Route exact path="/register" component={RegisterPage}/>
+        <Route exact path="/help" component={Help}/>
         </div>
     )
 }

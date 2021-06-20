@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Menu, Grid, Segment, Button, Icon, Label } from 'semantic-ui-react'
 import JobseekerRegister from "./JobseekerRegister";
 import EmployerRegister from "./EmployerRegister";
+import { NavLink } from "react-router-dom";
 
 export default function RegisterPage() {
     const [active, setActive] = useState(true);
@@ -24,7 +25,7 @@ export default function RegisterPage() {
                     <Label as='a' basic color='blue' pointing='left'>
                         2,048
                     </Label>
-                    <Button basic color='blue' onClick={() => setActive(false)} style={{ marginTop: "20em" }}>
+                    <Button as={NavLink} to="/help" basic color='blue' onClick={() => setActive(false)} style={{ marginTop: "20em" }}>
                         <Icon name='help' />
                         Help
                     </Button>
