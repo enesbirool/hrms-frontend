@@ -26,6 +26,8 @@
       <summary>Project Details</summary>
         <img src="./photo/0.PNG"></img>
         <img src="./photo/0-1.PNG"></img>
+        <img src="./photo/8.PNG"></img>
+        <img src="./photo/9.PNG"></img>
         <img src="./photo/1.PNG"></img>
         <img src="./photo/2.PNG"></img>
         <img src="./photo/3.PNG"></img>

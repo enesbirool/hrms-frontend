@@ -37,8 +37,8 @@ class JobseekerRegister extends React.Component{
           <Form.Input name="email" onChange={this.onChange} fluid icon='user' iconPosition='left' placeholder='E-mail address' />
           <Form.Input name="password" onChange={this.onChange} fluid icon='lock' iconPosition='left' type="password" placeholder='Password' />
           <Form.Input name="repassword" onChange={this.onChange} fluid icon='lock' iconPosition='left' type="password" placeholder='REPassword' />
-          <Button color='teal' fluid size='large'>
-            Login
+          <Button style={{webkitBoxShadow: "3px 2px 4px #9E9E9E"}}  color='teal' fluid size='large'>
+            Register
           </Button>
         </Segment>
       </Form>

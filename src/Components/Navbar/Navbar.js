@@ -12,7 +12,7 @@ class Navi extends React.Component{
         const {t}=this.props;
        return (
         <div>
-            <Menu inverted fixed="top">
+            <Menu inverted fixed="top" style={{webkitBoxShadow: "5px 4px 5px #9E9E9E"}}>
                 <Container>
                     <Menu.Item as={NavLink} to="/"
                         name={t('Home')} />

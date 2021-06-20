@@ -27,7 +27,7 @@ class LoginPage extends React.Component {
             type='password'
           />
 
-          <Button color='teal' fluid size='large'>
+          <Button style={{webkitBoxShadow: "3px 2px 4px #9E9E9E"}} color='teal' fluid size='large'>
             {t("Login")}
           </Button>
         </Segment>
