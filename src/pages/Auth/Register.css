@@ -1,0 +1,16 @@
+.ui.placeholder.segment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    max-width: initial;
+    animation: none;
+    overflow: visible;
+    padding: 1em 1em;
+    min-height: 18rem;
+    background: linear-gradient(
+45deg
+, black, transparent);
+    border-color: rgba(34,36,38,.15);
+    box-shadow: 0 2px 25px 0 rgb(34 36 38 / 5%) inset;
+}

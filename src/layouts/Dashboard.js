@@ -6,7 +6,8 @@ import ContactUs from "../pages/HomePage/ContactUs";
 import HomePage from "../pages/HomePage/HomePage";
 import BaseList from "../pages/Lists/BaseList";
 import JobSeekerDetail from "../pages/Lists/JobSeekerDetail";
-import SignUpPage from "../pages/SignUpPage"
+import LoginPage from "../pages/Auth/LoginPage";
+import RegisterPage from "../pages/Auth/RegisterPage";
 
 export default function Dashboard() {
     return (
@@ -17,7 +18,8 @@ export default function Dashboard() {
         <Route path="/list" component={BaseList}/>
         <Route exact path="/admin/dashboard" component={AdminDashboard}/>
         <Route exact path="/jobseeker/:id" component={JobSeekerDetail}/>
-        <Route exact path="/register" component={SignUpPage}/>
+        <Route exact path="/login" component={LoginPage}/>
+        <Route exact path="/register" component={RegisterPage}/>
         </div>
     )
 }

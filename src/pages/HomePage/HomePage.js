@@ -16,7 +16,6 @@ import {
     Visibility,
 } from 'semantic-ui-react'
 import { withTranslation } from 'react-i18next'
-import LanguageSelector from '../../Components/Translator/LanguageSelector'
 
 class HomePage extends React.Component {
     render(){
